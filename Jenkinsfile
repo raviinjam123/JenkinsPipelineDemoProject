@@ -7,7 +7,7 @@ node()
     
     stage('compile')
     {
-        sh "mvn compile"
+        sh "mvn clean"
     }
     
    /* stage('build')
