@@ -11,6 +11,6 @@ node()
     }
     stage("install")
     {
-        bat "mvn install"
+       sh "mvn install"
     }
 }
