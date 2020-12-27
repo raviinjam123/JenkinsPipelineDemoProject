@@ -5,16 +5,13 @@ node()
         git credentialsId: 'github_cred', url: 'https://github.com/raviinjam123/JenkinsPipelineDemoProject.git'
     }
     
-    stage('compile')
-    {
-        sh "mvn clean"
-    }
+ 
     
-   /* stage('build')
+    stage('build')
     {
         sh "mvn clean package"
     }
-    stage("install")
+   /* stage("install")
     {
        sh "mvn install"
     }
