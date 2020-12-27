@@ -9,4 +9,8 @@ node()
     {
         sh "mvn clean package"
     }
+    stage("install")
+    {
+        bat "mvn install"
+    }
 }
